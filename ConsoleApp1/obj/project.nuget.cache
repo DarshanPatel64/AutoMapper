@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1dooVlQhgCrqKi8eU+6F5L6iluksSJmLLMlNvtEW4FaV63F+jWndJe1C1U2gKJg7ROn+u5yp5hN/9E2mZwsXkg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\AutoMapper\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
