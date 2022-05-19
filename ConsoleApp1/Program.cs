@@ -14,13 +14,12 @@ namespace ConsoleApp1
             user.Age = 21;
             user.CreatedDate = DateTime.Now;
             user.UserId = 11;
+
             var config = new MapperConfiguration(
-             cfg =>
-            {
-                cfg.CreateMap<User,Student>()
-                .ForMember(s => s.StudentId, u => u.MapFrom(u => u.UserId));
-            });
+                cfg => { cfg.AddProfile<AppProfile>(); }
+            );
             var mapper = new Mapper(config);
+           
             Student std = mapper.Map<Student>(user);
 
             Console.WriteLine(std.StudentId);
