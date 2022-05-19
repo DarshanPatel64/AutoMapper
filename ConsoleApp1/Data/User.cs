@@ -8,10 +8,10 @@ namespace ConsoleApp1.Data
 {
     internal class User
     {
-        public int UserId { get; set; } 
-        public string Name { get; set; }
-        public int Age { get; set; }
-        public string Address { get; set; }
+        public int usrUserId { get; set; } 
+        public string usrName { get; set; }
+        public int usrAge { get; set; }
+        public string usrAddress { get; set; }
 
         public DateTime CreatedDate { get; set; }
     }

@@ -12,8 +12,9 @@ namespace ConsoleApp1
     {
         public AppProfile()
         {
+            RecognizePrefixes("usr");
             CreateMap<User, Student>()
-                .ForMember(s => s.StudentId, u => u.MapFrom(u => u.UserId));
+                .ForMember(s => s.StudentId, u => u.MapFrom(u => u.usrUserId));
         }
     }
 }

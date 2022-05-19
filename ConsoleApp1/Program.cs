@@ -9,11 +9,11 @@ namespace ConsoleApp1
         {
             
             User user = new User();
-            user.Name = "Darshan";
-            user.Address = "Gandhi Gate";
-            user.Age = 21;
+            user.usrName = "Darshan";
+            user.usrAddress = "Gandhi Gate";
+            user.usrAge = 21;
             user.CreatedDate = DateTime.Now;
-            user.UserId = 11;
+            user.usrUserId = 11;
 
             var config = new MapperConfiguration(
                 cfg => { cfg.AddProfile<AppProfile>(); }
